@@ -1,0 +1,30 @@
+analytically accurate answer (2x^4 - 2x^2 - 1): 4.2
+Method rectangle(10): 6.07251
+absolute fault: 1.87251
+inderect fault: 0.308358 (30.8358%)
+Method trapezoid(10): 6.15499
+absolute fault: 1.95499
+inderect fault: 0.317627 (31.7627%)
+Method Sympson's(10): 6.10004
+absolute fault: 1.90004
+inderect fault: 0.31148 (190.004%)
+
+
+For e^x / x^2:
+Method rectangle(10): -0.529867
+Method rectangle(20): -0.547194
+absolute fault: 0.00115509
+inderect fault: 0.00217995(0.00217995 %)
+approximate expression: -0.528712
+--------------------
+Method trapezoid(10): -0.613806
+Method trapezoid(20): -0.571837
+absolute fault: 0.00279796
+inderect fault: 0.00455838(0.455838 %)
+approximate expression: -0.616604
+--------------------
+Method Sympson's(10): -0.557847
+Method Sympson's(20): -0.555408
+absolute fault: 0.000162596
+inderect fault: 0.000291471(0.0291471 %)
+approximate expression: -0.558009
